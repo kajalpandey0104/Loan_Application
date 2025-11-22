@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helper */
+body { @apply bg-gray-50; }
+.dashboard-card {
+  @apply bg-white/80 backdrop-blur-xl p-8 rounded-3xl border border-gray-200 
+         shadow-xl transition-all duration-300 cursor-pointer 
+         hover:-translate-y-2 hover:shadow-2xl;
+}
+.icon-box {
+  @apply w-16 h-16 flex items-center justify-center rounded-2xl shadow-md mb-4 
+         transition-transform;
+}
+.card-title {
+  @apply text-2xl font-bold mb-2 tracking-tight;
+}
+.card-desc {
+  @apply text-gray-600 mb-6 text-base;
+}
+.card-btn {
+  @apply text-white px-5 py-2 rounded-xl font-semibold shadow-md transition;
+}
+.section-title {
+  @apply flex items-center gap-3 text-2xl font-bold mb-4;
+}
+.summary-card {
+  @apply bg-gray-50 p-5 rounded-xl border shadow-sm;
+}
+.summary-label {
+  @apply text-sm text-gray-500;
+}
+.summary-value {
+  @apply text-lg font-semibold text-gray-800;
+}
