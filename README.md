@@ -1,13 +1,13 @@
-Loan Origination and Approval System
+**Loan Origination and Approval System**
 This is a full-stack loan origination and approval system built with the MERN stack.
 
-Features
+**Features**
 User authentication (registration and login) with JWT.
 Separate dashboards for customers and loan officers.
 Customers can apply for loans.
 Loan officers can view and manage loan applications.
 RESTful API for managing users, loans, and customers.
-Technologies Used
+**Technologies Used**
 Frontend
 React
 Vite
@@ -20,14 +20,13 @@ Express
 MongoDB (with Mongoose)
 JSON Web Tokens (JWT)
 bcrypt
-Project Structure
+**Project Structure**
 The project has two main folders:
 
 frontend – React application
 Backend – Node.js/Express API
-Getting Started
 
-Install backend dependencies:
+**Install backend dependencies:**
 
 cd Backend
 npm install
@@ -64,12 +63,8 @@ GET /api/officer/applications
 
 PUT /api/officer/applications/:id
 
-yaml
-Copy code
 
----
-
-# 🎉 GitHub will now render everything correctly.
+#  GitHub will now render everything correctly.
 
 ✔ Format your README into a **professional GitHub badge style**  
 ✔ Add images/screenshots  
@@ -81,3 +76,4 @@ npm run dev
 Prerequisites
 Node.js & npm
 MongoDB
+
